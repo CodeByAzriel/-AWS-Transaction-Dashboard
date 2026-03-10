@@ -1,0 +1,1 @@
+API_ENDPOINT = "https://4szfaagwvg.execute-api.eu-north-1.amazonaws.com/prod/transactions"
