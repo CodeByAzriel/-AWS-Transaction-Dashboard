@@ -9,10 +9,6 @@ A Python-based project that simulates bank transactions, uploads them to an AWS 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Setup & Installation](#setup--installation)
-- [Usage](#usage)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
