@@ -47,3 +47,25 @@ It’s perfect for learning **Python automation**, **AWS S3 integration**, and *
 ```bash
 git clone <your-repo-url>
 cd aws-transaction-dashboard
+
+aws-transaction-dashboard/      <-- root folder (README.md goes here)
+│
+├── README.md                   <-- project documentation
+├── requirements.txt            <-- all Python dependencies
+├── .gitignore                  <-- ignore venv, cache, etc.
+│
+├── config/                     <-- configuration files
+│   └── aws_config.py           <-- AWS S3 bucket/config
+│
+├── dashboard/                  <-- Streamlit frontend
+│   └── streamlit_dashboard.py
+│
+├── transaction_simulator/      <-- scripts for generating & uploading transactions
+│   ├── simulate_transactions.py
+│   ├── upload_to_s3.py
+│   └── transactions.json       <-- sample generated data
+│
+└── lambda_functions/           <-- optional, if you’re using AWS Lambda
+    ├── api_get_transactions_lambda.py
+    └── process_transactions_lambda.py
+
